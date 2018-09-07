@@ -8,9 +8,10 @@
       <source>Unpacking module:
 &quot;%1&quot;
 please wait...</source>
-      <translation>Entpacke Modul:
+      <translation type="unfinished">Unpacking module:
 &quot;%1&quot;
-Bitte warten...</translation>
+please wait...</translation>
+      <comment>A comment from mudlet.ts to stir up existing translations and approvals.</comment>
     </message>
     <message>
       <location filename="../src/Host.cpp" line="822"/>
@@ -24,7 +25,8 @@ Bitte warten...</translation>
     <message>
       <location filename="../src/Host.cpp" line="826"/>
       <source>Unpacking</source>
-      <translation>Entpacke</translation>
+      <translation type="unfinished">Unpacking</translation>
+      <comment>Another comment at existing translation.</comment>
     </message>
   </context>
   <context>
