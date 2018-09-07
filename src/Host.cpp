@@ -817,13 +817,13 @@ bool Host::installPackage(const QString& fileName, int module)
         auto * pLabel = pUnzipDialog->findChild<QLabel*>(QStringLiteral("label"));
         if (pLabel) {
             if (module) {
-                pLabel->setText(tr("Unpacking module:\n\"%1\"\nplease wait...").arg(packageName));
+                pLabel->setText(tr("Unpacking module:\n\"%1\"\nplease wait...", "Testing Crowdin").arg(packageName));
             } else {
                 pLabel->setText(tr("Unpacking package:\n\"%1\"\nplease wait...").arg(packageName));
             }
         }
         pUnzipDialog->hide(); // Must hide to change WindowModality
-        pUnzipDialog->setWindowTitle(tr("Unpacking"));
+        pUnzipDialog->setWindowTitle(tr("Unpacking", "Commenting"));
         pUnzipDialog->setWindowModality(Qt::ApplicationModal);
         pUnzipDialog->show();
         qApp->processEvents();
