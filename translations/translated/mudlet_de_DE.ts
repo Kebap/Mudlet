@@ -11,7 +11,7 @@ please wait...</source>
       <translation type="unfinished">Unpacking module:
 &quot;%1&quot;
 please wait...</translation>
-      <comment>A comment from mudlet.ts to stir up existing translations and approvals.</comment>
+      <comment>Comment 2 from mudlet.ts to stir up existing translations and approvals.</comment>
     </message>
     <message>
       <location filename="../src/Host.cpp" line="822"/>
@@ -26,7 +26,7 @@ Bitte warten...</translation>
       <location filename="../src/Host.cpp" line="826"/>
       <source>Unpacking</source>
       <translation type="unfinished">Unpacking</translation>
-      <comment>Another comment at existing translation.</comment>
+      <comment>Another comment 2 at existing translation.</comment>
     </message>
   </context>
   <context>
