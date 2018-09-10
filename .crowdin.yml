@@ -2,6 +2,7 @@
   {
     "source" : "/translations/mudlet.ts",
     "translation" : "/translations/translated/mudlet_%locale_with_underscore%.%file_extension%",
-    "update_option" : "update_as_unapproved"
+    "update_option" : "update_as_unapproved",
+    "dest" : "/mudlet.ts"
   }
 ]
