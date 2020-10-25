@@ -5,14 +5,14 @@ on:
       - 'release-**'
 
   schedule:
-    - cron: '0 0 * * fri'
+    - cron: '0 * * * *'
   repository_dispatch:
     types: update-translations
 
 jobs:
   update-and-commit-text:
     runs-on: ubuntu-latest
-    if: github.repository == 'Mudlet/Mudlet'
+    if: github.repository == 'Kebap/Mudlet'
     steps:
     - uses: actions/checkout@v2
       with:
